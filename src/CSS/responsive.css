@@ -1,0 +1,357 @@
+/*===================
+  Responsive Layout
+===================*/
+
+/*====iPads and Tablets====*/
+@media screen and (min-width: 810px) and (max-width: 960px){
+
+    .logo {
+        max-width: 35%;
+        padding: .25rem 0 0;
+    }
+    
+    .gamer-logo {
+        max-width: 35%;
+        min-width: 5rem;
+    }
+    
+    nav ul {
+        display: flex;
+        border-bottom: 1px solid snow;
+        margin: 0;
+        padding: 2% 1% 1% 0;
+        list-style-type: none;
+        font-size: medium;
+    }
+    
+    nav ul, body {
+        font-weight: 500;
+    }
+
+    #searchAndDynamic {
+        border: none;
+        padding: 1rem 1rem 1rem;
+    }
+    
+    #navigationList {
+        border-bottom: none;
+        padding: 0;
+    }
+    
+    #navigationList li {
+        padding: 5px 1px 0;
+    }
+    
+    body {
+        background-color: #333333;
+        color: snow;
+        font-size: 20px;
+        word-wrap: break-word;
+        margin: 0 15%;
+    }
+
+    .featured-title {
+        max-width: 600px;
+        margin: 0;
+        text-align: center;
+        padding: 3%;
+    }
+    
+    .featured-title, .main-header h1, .article-header, 
+    .aside-header, footer h2, sub {
+        font-weight: 700;
+    }
+
+    .main-header h1 {
+        font-size: 30px;
+    }
+    
+    .search-box input {
+        padding: 1% 0;
+    }
+
+    .subscription input, .search-box input {
+        border: 1px solid snow;
+        background-color: black;
+        color: snow;
+        text-align: center;
+        font-family: "Encode Sans SC", sans-serif;
+    }
+
+    .search-icon {
+        width: 17px;
+    }
+    
+    .search-button {
+        background-color: black;
+        padding: 15%;
+        border: 1px solid snow;
+    }
+    
+    aside {
+        display: inline-flex;
+        margin: 0;
+        padding: 2%;
+    }
+
+    aside article {
+        max-width: 30%;
+        padding: 3% 6%;
+    }
+    
+    .subscription h2 {
+        font-size: 25px;
+    }
+
+    footer p sub {
+        font-weight: 400;
+    }
+
+    /*==Console and Blog Page Settings==*/
+
+    .twitter img {
+        min-width: 20px;
+    }
+
+    .linkedIn img {
+        min-width: 20px;
+    }
+
+    .facebook img {
+        min-width: 20px;
+    }
+    
+    .container {
+        display: block;
+    }
+
+    .card {
+        width: 235px;
+        height: 300px;
+    }
+
+    /*====Author Card====*/
+
+    .card-body {
+        transition: none;
+    }
+
+    .card:hover .card-body, .card-back {
+        transform: none;
+    }
+
+    .card-body, .card-front, .card-back {
+        width: 100%;
+        height: 10%;
+    }
+    
+    .card-front, .card-back {
+        position: absolute;
+        backface-visibility: visible;
+    }
+
+    .card-back p {
+        display: none;
+    }
+
+    .social-media {
+        padding-top: 225px;
+        padding-right: 40px;
+    }
+    
+}
+
+/*====Android and Phones====*/
+
+@media screen and (max-width: 809.9px){
+
+    .logo {
+        max-width: 5rem;
+        padding: .25rem 0 0;
+    }
+    
+    .gamer-logo {
+        max-width: 1rem;
+    }
+    
+    nav ul {
+        display: flex;
+        border-bottom: 1px solid snow;
+        margin: 0;
+        padding: 2% 1% 0 0;
+        list-style-type: none;
+        font-size: medium;
+    }
+    
+    nav ul, body {
+        font-weight: 500;
+    }
+
+    #searchAndDynamic {
+        border: none;
+        padding: 0;
+    }
+    
+    #navigationList {
+        border-bottom: none;
+        padding: 0;
+    }
+    
+    #navigationList li {
+        padding-top: 2px;
+    }
+    
+    body {
+        background-color: #333333;
+        color: snow;
+        font-size: 20px;
+        word-wrap: break-word;
+        margin: 0 15%;
+    }
+
+    .search-box, .search-button {
+        display: none;
+    }
+
+    /*====Homepage Settings====*/
+
+    .featured-articles {
+        display: block;
+        padding-bottom: 3%;
+    }
+
+    .main-header {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .all-articles article {
+        display: block;
+        margin: 0;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+
+    .article-img-link img {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .aside-header {
+        padding: 5% 3%;
+        text-align: center;
+    }
+
+    .more-posts {
+        display: inline-block;
+        margin: 0;
+        padding: .5%;
+        text-align: center;
+    }
+    
+    .more-posts img {
+        max-width: 80%;
+    }
+
+    .more-posts article {
+        padding: 4%;
+        max-width: 100%;
+    }
+
+    .more-posts .article-header {
+        font-size: 12px;
+    }
+
+    footer, .subscription h2  {
+        font-size: 16px;
+    }
+
+    /*====Console and Blog Page Settings====*/
+
+    .twitter img {
+        min-width: 15px;
+    }
+
+    .linkedIn img {
+        min-width: 15px;
+    }
+
+    .facebook img {
+        min-width: 15px;
+    }
+    
+    .container {
+        display: block;
+    }
+
+    .card {
+        width: 235px;
+        height: 300px;
+    }
+
+    .comments form {
+        padding: 0 5%;
+    }
+    
+    fieldset {
+        padding: 3%;
+        display: inline;
+    }
+    
+    fieldset textarea, fieldset input {
+        border: 2px solid snow;
+        background-color: black;
+        padding: 1%;
+        color: snow;
+        text-align: center;
+    }
+    
+    fieldset textarea:focus, fieldset input:focus {
+        outline: none;
+    }
+    
+    fieldset textarea, fieldset input, fieldset button {
+        font-family: "Encode Sans SC", sans-serif;
+    }
+    
+    fieldset button {
+        background-color: black;
+        color: snow;
+        padding: 1%;
+    }
+    
+    fieldset button:hover {
+        cursor: pointer;
+    }
+
+    /*====Author Card====*/
+
+    .card-body {
+        transition: none;
+    }
+
+    .card:hover .card-body, .card-back {
+        transform: none;
+    }
+
+    .card-body, .card-front, .card-back {
+        width: 100%;
+        height: 10%;
+    }
+    
+    .card-front, .card-back {
+        position: absolute;
+        backface-visibility: visible;
+    }
+
+    .card-back p {
+        display: none;
+    }
+
+    .social-media {
+        padding-top: 225px;
+        padding-right: 50px;
+    }
+}
+
+/*========END OF FILE!!!=========*/

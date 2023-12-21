@@ -1,0 +1,80 @@
+[
+    {
+        "id": "1",
+        "image": "src/IMAGES/pexels-playstation.png",
+        "system": "PlayStation",
+        "title": "Season Two of Call of Duty: Vanguard and Warzone is Available Now", 
+        "author": "Jack Tripper",
+        "first-paragraph": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Nunc mattis enim ut tellus elementum sagittis vitae et. Etiam tempor orci eu lobortis. Dis parturient montes nascetur ridiculus mus. Viverra mauris in aliquam sem fringilla ut morbi. Orci eu lobortis elementum nibh tellus. Bibendum neque egestas congue quisque egestas diam in arcu.",
+        "second-paragraph": "Ut tristique et egestas quis ipsum Nisl nunc mi ipsum faucibus vitae aliquet. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam. Aliquam etiam erat velit scelerisque in. Tempus egestas sed sed risus pretium quam. Commodo elit at imperdiet dui accumsan sit. Dolor morbi non arcu risus quis varius. Porttitor massa id neque aliquam vestibulum morbi.",
+        "third-paragraph": "Mattis ullamcorper velit sed ullamcorper morbi. Scelerisque in dictum non consectetur. Et malesuada fames ac turpis egestas sed tempus urna. Consequat id porta nibh venenatis cras sed felis eget. Adipiscing elit ut aliquam purus sit amet luctus.",
+        "fourth-paragraph": "Lobortis elementum nibh tellus molestie nunc. A condimentum vitae sapien pellentesque habitant morbi tristique senectus. Odio euismod lacinia at quis risus sed vulputate odio. Id aliquet risus feugiat in ante metus. Nunc non blandit massa enim nec dui nunc mattis. Vitae tortor condimentum lacinia quis vel eros donec. Tincidunt eget nullam non nisi est. Urna neque viverra justo nec ultrices dui sapien. Quis blandit turpis cursus in hac habitasse platea. Morbi non arcu risus quis. Et odio pellentesque diam volutpat commodo sed egestas. Malesuada bibendum arcu vitae elementum.",
+        "quote": "Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam.",
+        "time": "February 21, 2022"
+    }, 
+    {
+        "id": "2",
+        "image": "src/IMAGES/pexels-pc.png",
+        "system": "PC",
+        "title": "The best new PC game: Dying Light 2", 
+        "author": "Chrissy Snow",
+        "first-paragraph": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Nunc mattis enim ut tellus elementum sagittis vitae et. Etiam tempor orci eu lobortis. Dis parturient montes nascetur ridiculus mus. Viverra mauris in aliquam sem fringilla ut morbi. Orci eu lobortis elementum nibh tellus. Bibendum neque egestas congue quisque egestas diam in arcu.",
+        "second-paragraph": "Ut tristique et egestas quis ipsum Nisl nunc mi ipsum faucibus vitae aliquet. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam. Aliquam etiam erat velit scelerisque in. Tempus egestas sed sed risus pretium quam. Commodo elit at imperdiet dui accumsan sit. Dolor morbi non arcu risus quis varius. Porttitor massa id neque aliquam vestibulum morbi.",
+        "third-paragraph": "Mattis ullamcorper velit sed ullamcorper morbi. Scelerisque in dictum non consectetur. Et malesuada fames ac turpis egestas sed tempus urna. Consequat id porta nibh venenatis cras sed felis eget. Adipiscing elit ut aliquam purus sit amet luctus.",
+        "fourth-paragraph": "Lobortis elementum nibh tellus molestie nunc. A condimentum vitae sapien pellentesque habitant morbi tristique senectus. Odio euismod lacinia at quis risus sed vulputate odio. Id aliquet risus feugiat in ante metus. Nunc non blandit massa enim nec dui nunc mattis. Vitae tortor condimentum lacinia quis vel eros donec. Tincidunt eget nullam non nisi est. Urna neque viverra justo nec ultrices dui sapien. Quis blandit turpis cursus in hac habitasse platea. Morbi non arcu risus quis. Et odio pellentesque diam volutpat commodo sed egestas. Malesuada bibendum arcu vitae elementum.",
+        "quote": "Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam.",
+        "time": "February 16, 2022"
+    }, 
+    {
+        "id": "3",
+        "image": "src/IMAGES/pexels-pc.png",
+        "system": "PC",
+        "title": "Microsoft Flight Simulator on sale", 
+        "author": "Janet Wood",
+        "first-paragraph": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Nunc mattis enim ut tellus elementum sagittis vitae et. Etiam tempor orci eu lobortis. Dis parturient montes nascetur ridiculus mus. Viverra mauris in aliquam sem fringilla ut morbi. Orci eu lobortis elementum nibh tellus. Bibendum neque egestas congue quisque egestas diam in arcu.",
+        "second-paragraph": "Ut tristique et egestas quis ipsum Nisl nunc mi ipsum faucibus vitae aliquet. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam. Aliquam etiam erat velit scelerisque in. Tempus egestas sed sed risus pretium quam. Commodo elit at imperdiet dui accumsan sit. Dolor morbi non arcu risus quis varius. Porttitor massa id neque aliquam vestibulum morbi.",
+        "third-paragraph": "Mattis ullamcorper velit sed ullamcorper morbi. Scelerisque in dictum non consectetur. Et malesuada fames ac turpis egestas sed tempus urna. Consequat id porta nibh venenatis cras sed felis eget. Adipiscing elit ut aliquam purus sit amet luctus.",
+        "fourth-paragraph": "Lobortis elementum nibh tellus molestie nunc. A condimentum vitae sapien pellentesque habitant morbi tristique senectus. Odio euismod lacinia at quis risus sed vulputate odio. Id aliquet risus feugiat in ante metus. Nunc non blandit massa enim nec dui nunc mattis. Vitae tortor condimentum lacinia quis vel eros donec. Tincidunt eget nullam non nisi est. Urna neque viverra justo nec ultrices dui sapien. Quis blandit turpis cursus in hac habitasse platea. Morbi non arcu risus quis. Et odio pellentesque diam volutpat commodo sed egestas. Malesuada bibendum arcu vitae elementum.",
+        "quote": "Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam.",
+        "time": "February 17, 2022"
+    }, 
+    {
+        "id": "4",
+        "image": "src/IMAGES/pexels-playstation.png",
+        "system": "PlayStation",
+        "title": "Horizon Forbidden West is Out Now", 
+        "author": "Cindy Snow",
+        "first-paragraph": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Nunc mattis enim ut tellus elementum sagittis vitae et. Etiam tempor orci eu lobortis. Dis parturient montes nascetur ridiculus mus. Viverra mauris in aliquam sem fringilla ut morbi. Orci eu lobortis elementum nibh tellus. Bibendum neque egestas congue quisque egestas diam in arcu.",
+        "second-paragraph": "Ut tristique et egestas quis ipsum Nisl nunc mi ipsum faucibus vitae aliquet. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam. Aliquam etiam erat velit scelerisque in. Tempus egestas sed sed risus pretium quam. Commodo elit at imperdiet dui accumsan sit. Dolor morbi non arcu risus quis varius. Porttitor massa id neque aliquam vestibulum morbi.",
+        "third-paragraph": "Mattis ullamcorper velit sed ullamcorper morbi. Scelerisque in dictum non consectetur. Et malesuada fames ac turpis egestas sed tempus urna. Consequat id porta nibh venenatis cras sed felis eget. Adipiscing elit ut aliquam purus sit amet luctus.",
+        "fourth-paragraph": "Lobortis elementum nibh tellus molestie nunc. A condimentum vitae sapien pellentesque habitant morbi tristique senectus. Odio euismod lacinia at quis risus sed vulputate odio. Id aliquet risus feugiat in ante metus. Nunc non blandit massa enim nec dui nunc mattis. Vitae tortor condimentum lacinia quis vel eros donec. Tincidunt eget nullam non nisi est. Urna neque viverra justo nec ultrices dui sapien. Quis blandit turpis cursus in hac habitasse platea. Morbi non arcu risus quis. Et odio pellentesque diam volutpat commodo sed egestas. Malesuada bibendum arcu vitae elementum.",
+        "quote": "Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam.",
+        "time": "February 20, 2022"
+    }, 
+    {
+        "id": "5",
+        "image": "src/IMAGES/pexels-xbox.png",
+        "system": "Xbox",
+        "title": "Two Point Campus - Class in session", 
+        "author": "Terri Alden",
+        "first-paragraph": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Nunc mattis enim ut tellus elementum sagittis vitae et. Etiam tempor orci eu lobortis. Dis parturient montes nascetur ridiculus mus. Viverra mauris in aliquam sem fringilla ut morbi. Orci eu lobortis elementum nibh tellus. Bibendum neque egestas congue quisque egestas diam in arcu.",
+        "second-paragraph": "Ut tristique et egestas quis ipsum Nisl nunc mi ipsum faucibus vitae aliquet. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam. Aliquam etiam erat velit scelerisque in. Tempus egestas sed sed risus pretium quam. Commodo elit at imperdiet dui accumsan sit. Dolor morbi non arcu risus quis varius. Porttitor massa id neque aliquam vestibulum morbi.",
+        "third-paragraph": "Mattis ullamcorper velit sed ullamcorper morbi. Scelerisque in dictum non consectetur. Et malesuada fames ac turpis egestas sed tempus urna. Consequat id porta nibh venenatis cras sed felis eget. Adipiscing elit ut aliquam purus sit amet luctus.",
+        "fourth-paragraph": "Lobortis elementum nibh tellus molestie nunc. A condimentum vitae sapien pellentesque habitant morbi tristique senectus. Odio euismod lacinia at quis risus sed vulputate odio. Id aliquet risus feugiat in ante metus. Nunc non blandit massa enim nec dui nunc mattis. Vitae tortor condimentum lacinia quis vel eros donec. Tincidunt eget nullam non nisi est. Urna neque viverra justo nec ultrices dui sapien. Quis blandit turpis cursus in hac habitasse platea. Morbi non arcu risus quis. Et odio pellentesque diam volutpat commodo sed egestas. Malesuada bibendum arcu vitae elementum.",
+        "quote": "Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam.",
+        "time": "February 18, 2022"
+    }, 
+    {
+        "id": "6",
+        "image": "src/IMAGES/pexels-xbox.png",
+        "system": "Xbox",
+        "title": "WWE 2K22 - It hits different", 
+        "author": "Larry Dallas",
+        "first-paragraph": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Nunc mattis enim ut tellus elementum sagittis vitae et. Etiam tempor orci eu lobortis. Dis parturient montes nascetur ridiculus mus. Viverra mauris in aliquam sem fringilla ut morbi. Orci eu lobortis elementum nibh tellus. Bibendum neque egestas congue quisque egestas diam in arcu.",
+        "second-paragraph": "Ut tristique et egestas quis ipsum Nisl nunc mi ipsum faucibus vitae aliquet. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam. Aliquam etiam erat velit scelerisque in. Tempus egestas sed sed risus pretium quam. Commodo elit at imperdiet dui accumsan sit. Dolor morbi non arcu risus quis varius. Porttitor massa id neque aliquam vestibulum morbi.",
+        "third-paragraph": "Mattis ullamcorper velit sed ullamcorper morbi. Scelerisque in dictum non consectetur. Et malesuada fames ac turpis egestas sed tempus urna. Consequat id porta nibh venenatis cras sed felis eget. Adipiscing elit ut aliquam purus sit amet luctus.",
+        "fourth-paragraph": "Lobortis elementum nibh tellus molestie nunc. A condimentum vitae sapien pellentesque habitant morbi tristique senectus. Odio euismod lacinia at quis risus sed vulputate odio. Id aliquet risus feugiat in ante metus. Nunc non blandit massa enim nec dui nunc mattis. Vitae tortor condimentum lacinia quis vel eros donec. Tincidunt eget nullam non nisi est. Urna neque viverra justo nec ultrices dui sapien. Quis blandit turpis cursus in hac habitasse platea. Morbi non arcu risus quis. Et odio pellentesque diam volutpat commodo sed egestas. Malesuada bibendum arcu vitae elementum.",
+        "quote": "Elit sed vulputate mi sit. Pharetra sit amet aliquam id diam.",
+        "time": "February 19, 2022"
+    }
+]

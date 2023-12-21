@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "type": "PC",
+        "image": "src/IMAGES/pexels-pc.png"
+    }, 
+    {
+        "id": "2",
+        "type": "PlayStation",
+        "image": "src/IMAGES/pexels-playstation.png"
+    }, 
+    {
+        "id": "3",
+        "type": "Xbox",
+        "image": "src/IMAGES/pexels-xbox.png"
+    }
+]

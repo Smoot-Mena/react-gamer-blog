@@ -1,0 +1,81 @@
+/*===================
+  Homepage Settings
+===================*/
+
+.featured-articles {
+    display: flex;
+    max-width: 1200px;
+    height: 5%;
+    border-bottom: 1px solid snow;
+    background-color: #333333;
+}
+
+.featured-pic {
+    width: 100%;
+}
+
+.featured-title {
+    max-width: 600px;
+    margin: 0;
+    text-align: center;
+    padding: 3%;
+}
+
+.main-header {
+    margin: 0;
+    margin-bottom: 3%;
+    padding: 3%;
+    background-color: #333333;
+    text-align: center;
+    border-bottom: 1px solid snow;
+}
+
+.main-header h1, .all-articles p {
+    margin: 0;
+}
+
+.all-articles img {
+    max-width: 20%;
+    min-width: 200px;
+    padding: 0 10%;
+}
+
+.all-articles article {
+    display: inline-flex;
+    margin-bottom: 2%;
+}
+
+.article-img-link {
+    max-width: 20%;
+    min-width: 200px;
+}
+
+.article-header{
+    margin: 0 3%;
+}
+
+.category {
+    color: #e9d13c;
+}
+
+aside {
+    display: inline-flex;
+    margin: 0;
+    padding: 3% 10%;
+}
+
+.aside-header {
+    padding: 0 3%;
+}
+
+aside article {
+    max-width: 30%;
+    padding-left: 10%;
+}
+
+aside img{
+    max-width: 100%;
+    min-width: 150px;
+}
+
+/*=========END OF FILE!!!==========*/
