@@ -11,7 +11,7 @@ function Navbar( {systems} ) {
 					<Link to={"/"}>
 						<img
 							className="gamer-logo"
-							src="../src/IMAGES/Gamer-logo-white.png"
+							src="src/IMAGES/Gamer-logo-white.png"
 							alt="Gamer"
 						/>
 					</Link>
@@ -28,7 +28,7 @@ function Navbar( {systems} ) {
 						<button className="search-button">
 							<img
 								className="search-icon"
-								src="../src/IMAGES/search-icon-white.png"
+								src="src/IMAGES/search-icon-white.png"
 								alt="search icon"
 							/>
 						</button>

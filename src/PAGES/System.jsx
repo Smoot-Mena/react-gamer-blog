@@ -7,7 +7,7 @@ function System( {system} ) {
 	system = device.state.system;
 
     return (
-		<main>
+		<main className='system-page'>
 			<header className="system-header">
 				<h2>{system?.type || system}</h2>
 			</header>
