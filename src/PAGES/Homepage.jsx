@@ -1,64 +1,92 @@
 import React, { useEffect, useState } from 'react';
-
-import blogData from "../COMPONENTS/blogData.json";
-import systemData from "../COMPONENTS/systemData.json";
-
 import "../CSS/homepage.css";
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
-function Homepage() {
-	let [blogs, setBlogs] = useState(blogData);
+import useRandomNumberGenerator from '../hooks/useRandomNumberGenerator';
+
+
+const Homepage = ( {systemData} ) => {
+	
+	// Variables
+	let [blogs, setBlogs] = useState(useSelector((state) => state.blogs));
 	let [systems, setSystems] = useState(systemData);
-
-    let rng = blogs.length - 2;
-    let rng2 = 1;
+	let [posts, setPosts] = useState([]);
 
 
+	// Generates the featured articles on page load
+    let featuredArticle1 = useRandomNumberGenerator(blogs.length);
+	let featuredArticle2 = 0;
 
+	// Makes sure the second number generates at least once
+	do {
+		featuredArticle2 = useRandomNumberGenerator(blogs.length);
+	} while (featuredArticle2 === featuredArticle1);
+
+	// Gamer paragraph
+	let gamer = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+					do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Odio ut enim blandit volutpat maecenas volutpat.
+					Aliquam faucibus purus in massa tempor nec feugiat nisl.
+					Nibh mauris cursus mattis molestie.`;
+
+	// Generates the More Posts articles
+	useEffect(() => {
+		const generateRandomPosts = () => {
+			let randomPosts = [];
+			let usedIndices = new Set();
+
+			while (randomPosts.length < 3) {
+				let randomIndex = useRandomNumberGenerator(blogs.length);
+				if (!usedIndices.has(randomIndex)) {
+					usedIndices.add(randomIndex);
+					randomPosts.push(blogs[randomIndex]);
+				}
+			}
+			setPosts(randomPosts);
+		};
+
+		generateRandomPosts();
+	}, [blogs])
+	
 
 	return (
 		<>
 			<section className="featured-articles">
 				<article className="left-featured">
-					<Link to={"/blogs/article#" + blogs[rng].id}>
+					<Link to={"/blogs/article#" + blogs[featuredArticle1].id}>
 						<img
 							className="featured-pic"
-							src={blogs[rng].image}
-							alt={blogData[rng].title}
+							src={blogs[featuredArticle1].image}
+							alt={blogs[featuredArticle1].title}
 						/>
-						<h4 className="featured-title">{blogs[rng].title}</h4>
+						<h4 className="featured-title">{blogs[featuredArticle1].title}</h4>
 					</Link>
 				</article>
 				<article className="right-featured">
-					<Link to={"/blogs/article#" + blogs[rng2].id}>
+					<Link to={"/blogs/article#" + blogs[featuredArticle2].id}>
 						<img
 							className="featured-pic"
-							src={blogs[rng2].image}
-							alt={blogData[rng2].title}
+							src={blogs[featuredArticle2].image}
+							alt={blogs[featuredArticle2].title}
 						/>
-						<h4 className="featured-title">{blogs[rng2].title}</h4>
+						<h4 className="featured-title">{blogs[featuredArticle2].title}</h4>
 					</Link>
 				</article>
 			</section>
 
 			<header className="main-header">
 				<h1>Gamer</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua. Odio ut enim blandit volutpat maecenas volutpat.
-					Aliquam faucibus purus in massa tempor nec feugiat nisl.
-					Nibh mauris cursus mattis molestie.
-				</p>
+				<p>{gamer}</p>
 			</header>
-			<main className='all-articles'>
+			<section className='all-articles'>
 				{blogs.map((blog) => (
 					<article key={blog.id}>
-						<Link className='article-img-link' to={"/blogs/article#" + blog.id}>
+						<Link className='article-img-link' to={"/blogs/article#" + blog.id} state={{ blog: blog }}>
 							<img src={blog.image} alt={blog.title} />
 						</Link>
 						<p>
-							<Link className='category console' to={"/systems/" + blog.system} title={blog.system} system={blog.system}>{blog.system} </Link>
+							<Link className='category console' to={"/systems/" + blog.system} title={blog.system} state={{ system: blog.system }}>{blog.system} </Link>
 							| <time>{blog.time}</time>
 						</p>
 						<h5 className='article-header'>
@@ -66,28 +94,18 @@ function Homepage() {
 						</h5>
 					</article>
 				))}
-			</main>
+			</section>
 
 			<header className='aside-header'>More Posts</header>
 			<aside className='more-posts'>
-				<article>
-					<Link className='article-img-link' to={"/blogs/article#" + blogs[0].id}>
-						<img src={blogs[0].image} alt={blogs[0].title} />
-						<h6 className='article-header'>{blogs[0].title}</h6>
-					</Link>
-				</article>
-				<article>
-					<Link className='article-img-link' to={"/blogs/article#" + blogs[4].id}>
-						<img src={blogs[4].image} alt={blogs[4].title} />
-						<h6 className='article-header'>{blogs[4].title}</h6>
-					</Link>
-				</article>
-				<article>
-					<Link className='article-img-link' to={"/blogs/article#" + blogs[2].id}>
-						<img src={blogs[2].image} alt={blogs[2].title} />
-						<h6 className='article-header'>{blogs[2].title}</h6>
-					</Link>
-				</article>
+				{posts && posts.map((post, index) => (
+					<article key={index}>
+						<Link className='article-img-link' to={"/blogs/article#" + post.id}>
+							<img src={post.image} alt={post.title} />
+							<h6 className='article-header'>{post.title}</h6>
+						</Link>
+					</article>
+				))}
 			</aside>
 		</>
 	);

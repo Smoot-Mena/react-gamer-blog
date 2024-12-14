@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import systems from "./systemData.json"; 
-import System from "../PAGES/System";
 
-function Navbar() {
+function Navbar( {systems} ) {
     let [systemList, setSystemList] = useState(systems);
     
     return (
@@ -13,7 +11,7 @@ function Navbar() {
 					<Link to={"/"}>
 						<img
 							className="gamer-logo"
-							src="src/IMAGES/Gamer-logo-white.png"
+							src="../src/IMAGES/Gamer-logo-white.png"
 							alt="Gamer"
 						/>
 					</Link>
@@ -30,15 +28,15 @@ function Navbar() {
 						<button className="search-button">
 							<img
 								className="search-icon"
-								src="src/IMAGES/search-icon-white.png"
+								src="../src/IMAGES/search-icon-white.png"
 								alt="search icon"
 							/>
 						</button>
 					</li>
 					<ul id="navigationList">
-						{systemList.map((system) => (
+						{systemList && systemList.map((system) => (
                             <li key={system.id}>
-                                <Link to={"systems/" + system}>
+                                <Link to={"systems/" + system.type} state={{system: system}}>
 									{system.type}
 								</Link>
                             </li>

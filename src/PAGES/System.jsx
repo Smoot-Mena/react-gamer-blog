@@ -1,14 +1,15 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
 import "../App.css";
+import { useLocation } from 'react-router-dom';
 
-function System({system}) {
-	let { id, type, image } = system;
+function System( {system} ) {
+	let device = useLocation();
+	system = device.state.system;
 
     return (
 		<main>
 			<header className="system-header">
-				<h2>{system.type}</h2>
+				<h2>{system?.type || system}</h2>
 			</header>
 			<article className="container">
 				<p className="first-paragraph">
@@ -68,10 +69,10 @@ function System({system}) {
 					Laoreet id donec ultrices tincidunt arcu non sodales neque
 					sodales. Sed odio morbi quis commodo odio aenean.
 				</p>
-				<figure className="image">
-					<img src={system.image} alt={system.type} />
+				{system.image && <figure className="image">
+					<img src={"../" + system.image || `../src/IMAGES/pexels-${system.toLowerCase()}.png`} alt={system.type || system} />
 					<figcaption>Lorem ipsum dolor sit amet.</figcaption>
-				</figure>
+				</figure>}
 				<p className="fourth-paragraph">
 					Lobortis elementum nibh tellus molestie nunc. A condimentum
 					vitae sapien pellentesque habitant morbi tristique senectus.

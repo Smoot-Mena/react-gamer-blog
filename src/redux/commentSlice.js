@@ -10,4 +10,6 @@ export const commentSlice = createSlice({
     reducers: {
         
     }
-})
+});
+
+export default commentSlice.reducer;
