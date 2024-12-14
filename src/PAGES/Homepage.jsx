@@ -7,7 +7,7 @@ import useRandomNumberGenerator from '../hooks/useRandomNumberGenerator';
 
 
 const Homepage = ( {systemData} ) => {
-	
+
 	// Variables
 	let [blogs, setBlogs] = useState(useSelector((state) => state.blogs));
 	let [systems, setSystems] = useState(systemData);
@@ -54,7 +54,7 @@ const Homepage = ( {systemData} ) => {
 		<>
 			<section className="featured-articles">
 				<article className="left-featured">
-					<Link to={"/blogs/article#" + blogs[featuredArticle1].id}>
+					<Link to={"/blogs/article/" + blogs[featuredArticle1].id} state={ {blog: blogs[featuredArticle1]} } >
 						<img
 							className="featured-pic"
 							src={blogs[featuredArticle1].image}
@@ -64,7 +64,7 @@ const Homepage = ( {systemData} ) => {
 					</Link>
 				</article>
 				<article className="right-featured">
-					<Link to={"/blogs/article#" + blogs[featuredArticle2].id}>
+					<Link to={"/blogs/article/" + blogs[featuredArticle2].id} state={ {blog: blogs[featuredArticle2]} }>
 						<img
 							className="featured-pic"
 							src={blogs[featuredArticle2].image}
@@ -82,7 +82,7 @@ const Homepage = ( {systemData} ) => {
 			<section className='all-articles'>
 				{blogs.map((blog) => (
 					<article key={blog.id}>
-						<Link className='article-img-link' to={"/blogs/article#" + blog.id} state={{ blog: blog }}>
+						<Link className='article-img-link' to={"/blogs/article/" + blog.id} state={{ blog: blog }}>
 							<img src={blog.image} alt={blog.title} />
 						</Link>
 						<p>
@@ -90,7 +90,7 @@ const Homepage = ( {systemData} ) => {
 							| <time>{blog.time}</time>
 						</p>
 						<h5 className='article-header'>
-						<Link to={"/blogs/article#" + blog.id}>{blog.title}</Link>
+						<Link to={"/blogs/article/" + blog.id}>{blog.title}</Link>
 						</h5>
 					</article>
 				))}
@@ -100,7 +100,7 @@ const Homepage = ( {systemData} ) => {
 			<aside className='more-posts'>
 				{posts && posts.map((post, index) => (
 					<article key={index}>
-						<Link className='article-img-link' to={"/blogs/article#" + post.id}>
+						<Link className='article-img-link' to={"/blogs/article/" + post.id} state={ {post: post} } >
 							<img src={post.image} alt={post.title} />
 							<h6 className='article-header'>{post.title}</h6>
 						</Link>

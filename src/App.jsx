@@ -23,7 +23,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Homepage systemData={systems} />} />
         <Route path='/blogs/' element={<Blogs />} />
-        <Route path='/blogs/:blog' element={<Blog />} />
+        <Route path='/blogs/article/:blog' element={<Blog />} />
         <Route path='/systems/' element={<Systems systems={systems}/>} />
         <Route path='/systems/:system' element={<System />} />
       </Routes>

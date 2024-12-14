@@ -1,12 +1,12 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
-function Blog( {blogs} ) {
+const Blog = ( {blog} ) => {
 
-    // let info = useLocation();
-    // blogs = info.state.blog;
+    let info = useLocation();
+    blog = info.state.blog;
 
-    console.log(blogs);
+    console.log(blog);
 
     return (
         <section>This is the blog.</section>
