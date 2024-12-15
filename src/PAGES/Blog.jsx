@@ -2,6 +2,10 @@ import React from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
+import AuthorCard from "../COMPONENTS/AuthorCard";
+import Comments from '../COMPONENTS/Comments';
+import MorePosts from '../COMPONENTS/MorePosts';
+
 const Blog = ( {blog} ) => {
 
     // Variables
@@ -20,15 +24,14 @@ const Blog = ( {blog} ) => {
     let quote = blog.quote;
     let time = blog.time;
 
-    console.log(firstParagraph);
-
-
     return (
         <main className='blog-post'>
             <img className='game-pic' src={"/" + image} alt={title} />
+
             <header className='game-header'>
                 <h2>{title}</h2>
             </header>
+
             <section className='author'>
                 <p>Author: {author} | <time>{time}</time></p>
                 <span className='share-links'>Share this story on: 
@@ -43,6 +46,7 @@ const Blog = ( {blog} ) => {
                     </Link>
                 </span>
             </section>
+
             <article className='container'>
                 <p className='first-paragraph'>{firstParagraph}</p>
                 <q className='quote'>
@@ -52,9 +56,16 @@ const Blog = ( {blog} ) => {
                 <p className='third-paragraph'>{thirdParagraph}</p>
                 <p className='fourth-paragraph'>{fourthParagraph}</p>
             </article>
+
             <header className='author-header'>
                 <h3>About the Author</h3>
             </header>
+
+            <AuthorCard author={author}/>
+
+            <Comments />
+
+            <MorePosts />
         </main>
     )
 }
