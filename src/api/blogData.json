@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "src/IMAGES/pexels-playstation.png",
+        "image": "/src/IMAGES/pexels-playstation.png",
         "system": "PlayStation",
         "title": "Season Two of Call of Duty: Vanguard and Warzone is Available Now", 
         "author": "Jack Tripper",
@@ -14,7 +14,7 @@
     }, 
     {
         "id": "2",
-        "image": "src/IMAGES/pexels-pc.png",
+        "image": "/src/IMAGES/pexels-pc.png",
         "system": "PC",
         "title": "The best new PC game: Dying Light 2", 
         "author": "Chrissy Snow",
@@ -27,7 +27,7 @@
     }, 
     {
         "id": "3",
-        "image": "src/IMAGES/pexels-pc.png",
+        "image": "/src/IMAGES/pexels-pc.png",
         "system": "PC",
         "title": "Microsoft Flight Simulator on sale", 
         "author": "Janet Wood",
@@ -40,7 +40,7 @@
     }, 
     {
         "id": "4",
-        "image": "src/IMAGES/pexels-playstation.png",
+        "image": "/src/IMAGES/pexels-playstation.png",
         "system": "PlayStation",
         "title": "Horizon Forbidden West is Out Now", 
         "author": "Cindy Snow",
@@ -53,7 +53,7 @@
     }, 
     {
         "id": "5",
-        "image": "src/IMAGES/pexels-xbox.png",
+        "image": "/src/IMAGES/pexels-xbox.png",
         "system": "Xbox",
         "title": "Two Point Campus - Class in session", 
         "author": "Terri Alden",
@@ -66,7 +66,7 @@
     }, 
     {
         "id": "6",
-        "image": "src/IMAGES/pexels-xbox.png",
+        "image": "/src/IMAGES/pexels-xbox.png",
         "system": "Xbox",
         "title": "WWE 2K22 - It hits different", 
         "author": "Larry Dallas",
